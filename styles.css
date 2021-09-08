@@ -4,7 +4,7 @@ body{
   
     font-family: 'Poiret One', cursive;
     color:white;
-    background:#141313;;
+    background:#141313;
 }
 
 .site-header{
@@ -27,6 +27,22 @@ img{
     object-fit: cover;
 }
 
+h1{
+    margin-top: 24px;
+}
+
+.floater{
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background: #141313;
+    padding: 8px;
+    width: 100%;
+}
+
+.contact{
+    align-self: flex-end;
+}
 .heading{
     text-align: center;
 }
